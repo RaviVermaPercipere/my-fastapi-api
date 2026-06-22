@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "APIS3_SQL_POC.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "APIS3_SQL_POC.py"
+      "dest": "main.py"
     }
   ]
 }

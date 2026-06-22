@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from main import main
+from etl_main import main
 
 app = FastAPI()
 
