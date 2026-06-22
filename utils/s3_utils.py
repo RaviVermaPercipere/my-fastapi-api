@@ -1,5 +1,5 @@
 import boto3
-from config import AWS_ACCESS_KEY, AWS_SECRET_KEY, AWS_REGION
+from config import MY_AWS_ACCESS_KEY, MY_AWS_SECRET_KEY, MY_AWS_REGION
 
 
 def connect_s3():
